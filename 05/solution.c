@@ -19,7 +19,7 @@ int main(int ac, char *av[])
 	while(-1 != (opchar = getopt_long(ac, av, "q:vi", opts, &opindex)) ){
 		switch(opchar){
 		case 'q':
-			if(oparg == NULL)
+			if(optarg == NULL)
 				plus1 = false;
 			break;
 		case 'v':
