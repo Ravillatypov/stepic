@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	printf("%s - %s - %s\n", argv[1], argv[2], argv[3]);
 	printf("%i\n", q);
 	if(init_library(argv[1], argv[2]))
-		r = func(5);
+		r = func(q);
 	printf("%i\n", r);
 	return 0;
 }

@@ -5,4 +5,4 @@ lib: shared.c
 	gcc shared.c -fPIC -shared -o libShared.so
 
 clean:
-	-rm libShard.so run 2>/dev/null
+	-rm libShard.so solution  2>/dev/null
